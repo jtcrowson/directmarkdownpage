@@ -1,5 +1,7 @@
 # Directmarkdownpage
 
+This branch attempts to allow scully-content at the empty path.  Unfortunately, it's unable to render :(
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
 ## Development server
