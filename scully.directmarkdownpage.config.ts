@@ -16,7 +16,7 @@ export const config: ScullyConfig = {
   projectName: 'directmarkdownpage',
   outDir: './dist/static',
   routes: {
-    '/bar': {
+    '/': {
       type: 'tadaa',
       file: './content/bar.md',
       postRenderers: ['contentFolder'],

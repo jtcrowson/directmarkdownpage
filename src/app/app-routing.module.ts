@@ -3,9 +3,9 @@ import {Routes, RouterModule} from '@angular/router';
 
 
 const routes: Routes = [{
-    path: '',
+    path: 'foo',
     loadChildren: () => import('./foo/foo.module').then(m => m.FooModule)
-}, {path: 'bar', loadChildren: () => import('./bar/bar.module').then(m => m.BarModule)}];
+}, {path: '', loadChildren: () => import('./bar/bar.module').then(m => m.BarModule)}];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
