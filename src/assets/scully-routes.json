@@ -1,1 +1,1 @@
-[{"route":"/"},{"route":"/foo"},{"route":"/bar"}]
+[{"route":"/"},{"route":"/bar/content","sourceFile":"content.md"}]

@@ -3,7 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { BarComponent } from './bar.component';
 
-const routes: Routes = [{ path: '', component: BarComponent }];
+const routes: Routes = [
+  { path: ':slug', component: BarComponent },
+  { path: '**', component: BarComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
